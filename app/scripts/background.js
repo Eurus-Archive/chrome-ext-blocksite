@@ -10,7 +10,18 @@ chrome.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
-      "*://*.google.com/*"
+      "*://weibo.com/*",
+      "*://*.weibo.com/*",
+      "*://twitter.com/*",
+      "*://*.twitter.com/*",
+      "*://bilibili.com/*",
+      "*://*.bilibili.com/*",
+      "*://netflix.com/*",
+      "*://*.netflix.com/*",
+      "*://taobao.com/*",
+      "*://*.taobao.com/*",
+      "*://jd.com/*",
+      "*://*.jd.com/*"
     ],
     types: ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
   },
